@@ -1,3 +1,4 @@
+
 const db = require('../data/dbConfig.js');
 
 
@@ -39,4 +40,5 @@ function remove(id) {
  return db('schemes')
  .where('id', id)
  .del();
+
 }
